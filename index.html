@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Convite de Casamento - Douglas & Ellen</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Douglas & Ellen</h1>
+      <p class="message">
+        Com muito amor, convidamos você para fazer parte do dia mais especial de nossas vidas. Sua presença tornará esse momento ainda mais inesquecível.
+      </p>
+      <p class="date">25 de abril de 2026</p>
+    </header>
+
+    <section class="countdown">
+      <h2>Contagem Regressiva</h2>
+      <div id="countdown-timer">
+        <div><span id="days">00</span><small>Dias</small></div>
+        <div><span id="hours">00</span><small>Horas</small></div>
+        <div><span id="minutes">00</span><small>Minutos</small></div>
+        <div><span id="seconds">00</span><small>Segundos</small></div>
+      </div>
+    </section>
+
+    <section class="rsvp">
+      <h2>Confirme sua Presença</h2>
+      <form id="rsvp-form">
+        <input type="text" id="name" placeholder="Seu nome" required />
+        <select id="presence" required>
+          <option value="" disabled selected>Vai comparecer?</option>
+          <option value="Sim">Sim</option>
+          <option value="Não">Não</option>
+        </select>
+        <button type="submit">Enviar</button>
+      </form>
+      <p id="response-message"></p>
+    </section>
+
+    <section class="gifts">
+      <h2>Lista de Presentes</h2>
+      <p>Quer ajudar a tornar nosso sonho realidade? Veja nossa lista de presentes:</p>
+      <a href="https://wa.me/5511999999999?text=Olá%2C%20gostaria%20de%20saber%20mais%20sobre%20a%20lista%20de%20presentes%20do%20casamento%20de%20Douglas%20e%20Ellen." target="_blank" class="whatsapp-link">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" /> Entrar no grupo do WhatsApp
+      </a>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
